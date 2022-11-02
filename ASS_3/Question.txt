@@ -1,0 +1,10 @@
+Operating Systems Lab 2022 
+Assignment Set 3 :  
+Submission Deadline 13th Sept 2022 Tuesday 
+----------------------------------------------------------------------------------------------------------------------------------- Objectives: to learn the following: 
+- exit() & wait() system call 
+- process (execution) control synchronization 
+================================================================================== 
+A1) Write a code to speedup search in a large unsorted integer array by creating (n) child  processes each to search the array just to know if the element is found in the array. Each child  should search a non-overlapping portion of the array. The parent takes input to the array  elements randomly and asks the user to input the element to be searched. The search process  should stop as soon as any one of the child finds a success. The child process exits with status  code(1) if successful. Use wait() system call for parent child synchronization. 
+A2) A program where a parent forks (n) child processes to speedup finding all prime numbers in  some given range [x,y], where both x & y are provided as input and both are > 1000. Each child  writes the prime numbers found in a common file which the parent should create before  creating any of the child process. The parent suspends it till all the child processes completes  their execution. Use wait() system call for parent child synchronization. 
+A3) Solve Problem (A1) using waitpid() system call for parent child synchronization. A4) Solve Problem (A2) using waitpid() system call for parent child synchronization.

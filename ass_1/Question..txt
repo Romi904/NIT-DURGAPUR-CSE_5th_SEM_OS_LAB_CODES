@@ -1,0 +1,18 @@
+Operating Systems Lab 2022 
+Assignment Set 1 :  
+Submission Deadline 18th Aug 2022 
+------------------------------------------------------------------------------------ 
+Objectives: to learn the following: 
+- Race condition 
+- ps, kill, cat, chmod ls, pwd, etc. commands 
+- fork() system call 
+- speedup processing creating multiple processes using fork() 
+A1) Write a code such that it takes input n and then the parent process (p) creates n number  of child processes (c1, c2, c3,…..cn) all of them as its direct descendent i.e. p is the parent of  c1, c2, c3 …. and also cn. Each process including the parent should display the pid & ppid once  in the terminal and also store the values in a common file (log.txt). The parent can create the  file log.txt and all its child processes can get access it.  
+============================================ 
+A2) Write a code such that it takes input n and then the parent process p creates a child c1,  then c1 creates c2, c2 creates c3… and so on till cn. Each process including the parent should  display the pid & ppid once in the terminal and also store the values in a common file (log.txt).  The parent can create the file log.txt and all its child processes can get access it.  
+============================================ 
+A3) Write a suitable code to speedup finding all prime numbers in a given range [1, N],  creating M child processes by the parent process.  
+First try to run it for two processes then generalize it for M child processes =========================================== 
+A4) Learn the use of ps, kill, cat, chmod ls, pwd, etc. commands 
+========================================== 
+A5) Execute the balance update code discussed in the class and have a feel of race condition  
