@@ -1,0 +1,12 @@
+UID        PID  PPID   LWP  C NLWP    SZ   RSS PSR STIME TTY          TIME CMD
+root         1     0     1  0    2  2223   100   0 Oct25 ?        00:00:00 /init
+root         1     0     6  0    2  2223   100   0 Oct25 ?        00:00:00 /init
+root         7     1     7  0    1  2224    44   0 Oct25 tty1     00:00:00 /init
+subrata      8     7     8  0    1  4262  2208   0 Oct25 tty1     00:00:00 -bash
+root        85     1    85  0    1  2224    44   0 Oct25 tty2     00:00:00 /init
+subrata     86    85    86  0    1  4232  1460   0 Oct25 tty2     00:00:00 -bash
+subrata    374    86   374  0    1  4405  1932   0 14:59 tty2     00:00:01 top
+subrata    424     8   424  0    2  2635   584   0 15:15 tty1     00:00:00 ./a.out
+subrata    424     8   425  0    2  2635   584   0 15:15 tty1     00:00:00 ./a.out
+subrata    426   424   426  0    1  2665   676   0 15:15 tty1     00:00:00 sh -c ps -eLF > text
+subrata    427   426   427  0    1  4345  1948   0 15:15 tty1     00:00:00 ps -eLF
